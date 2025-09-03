@@ -46,6 +46,7 @@ public class CreateCampaignStatusWithTest extends BaseClass {
 		String status = eutil.getDataFromExcel("Campaign", 1, 4);
 
 	WebDriverUtility wutil = new WebDriverUtility();
+	System.out.println("hi");
 	
 	//WebDriver driver = new ChromeDriver();
 	
