@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Report Configuration]]>
+    </line>
+    <line>
+      <![CDATA[DB Connectivity open]]>
+    </line>
+    <line>
+      <![CDATA[====CreateCampaignTestFAILURE======]]>
+    </line>
+    <line>
+      <![CDATA[====CreateCampaignTestFAILURE======]]>
+    </line>
+    <line>
+      <![CDATA[====CreateCampaignTestFAILURE======]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-08-30T20:04:49 IST" name="Suite" finished-at="2025-08-30T20:05:30 IST" duration-ms="40698">
+    <groups>
+      <group name="Regression">
+        <method signature="CreateCampaignTest.CreateCampaignTest()[pri:0, instance:testCases.CreateCampaignTest@2de23121]" name="CreateCampaignTest" class="testCases.CreateCampaignTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CreateCampaignTestWithStatus.CreateCampaignTest()[pri:0, instance:testCases.CreateCampaignTestWithStatus@66d18979]" name="CreateCampaignTest" class="testCases.CreateCampaignTestWithStatus"/>
+        <method signature="CreateCampaignWithExpectedDateTest.CreateCampaignTest()[pri:0, instance:testCases.CreateCampaignWithExpectedDateTest@bccb269]" name="CreateCampaignTest" class="testCases.CreateCampaignWithExpectedDateTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-08-30T20:04:49 IST" name="Test" finished-at="2025-08-30T20:05:30 IST" duration-ms="40698">
+      <class name="testCases.CreateCampaignTestWithStatus">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testCases.CreateCampaignTestWithStatus@66d18979]" started-at="2025-08-30T20:05:04 IST" name="beforeclass" finished-at="2025-08-30T20:05:06 IST" duration-ms="2221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.CreateCampaignTestWithStatus@66d18979]" started-at="2025-08-30T20:05:06 IST" name="beforeMethod" finished-at="2025-08-30T20:05:08 IST" duration-ms="1806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateCampaignTest()[pri:0, instance:testCases.CreateCampaignTestWithStatus@66d18979]" started-at="2025-08-30T20:05:08 IST" name="CreateCampaignTest" finished-at="2025-08-30T20:05:15 IST" duration-ms="7267" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: MicrosoftEdge=139.0.3405.102)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [e794db7258559c4191ffa2e50aad972b, clickElement {id=f.209E4972F69D6E98B709A9070A42C700.d.06EE1C452B1EDE4D675C566B75E95B09.e.82}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.102, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50631}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\SHRINI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50631/devtoo..., se:cdpVersion: 139.0.3405.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (e794db7258559c4191ffa2e50aad972b)] -> xpath: //button[@aria-label='close']]
+Session ID: e794db7258559c4191ffa2e50aad972b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=139.0.3405.102)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [e794db7258559c4191ffa2e50aad972b, clickElement {id=f.209E4972F69D6E98B709A9070A42C700.d.06EE1C452B1EDE4D675C566B75E95B09.e.82}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.102, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50631}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\SHRINI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50631/devtoo..., se:cdpVersion: 139.0.3405.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (e794db7258559c4191ffa2e50aad972b)] -> xpath: //button[@aria-label='close']]
+Session ID: e794db7258559c4191ffa2e50aad972b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at testCases.CreateCampaignTestWithStatus.CreateCampaignTest(CreateCampaignTestWithStatus.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[====CreateCampaignTestFAILURE======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateCampaignTest -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:testCases.CreateCampaignTestWithStatus@66d18979]" started-at="2025-08-30T20:05:16 IST" name="aftermethod" finished-at="2025-08-30T20:05:16 IST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testCases.CreateCampaignTestWithStatus@66d18979]" started-at="2025-08-30T20:05:16 IST" name="afterclass" finished-at="2025-08-30T20:05:17 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- testCases.CreateCampaignTestWithStatus -->
+      <class name="testCases.CreateCampaignTest">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:testCases.CreateCampaignTest@2de23121]" started-at="2025-08-30T20:04:49 IST" name="beforesuite" finished-at="2025-08-30T20:04:49 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DB Connectivity open]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:testCases.CreateCampaignTest@2de23121]" started-at="2025-08-30T20:04:49 IST" name="beforetest" finished-at="2025-08-30T20:04:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testCases.CreateCampaignTest@2de23121]" started-at="2025-08-30T20:04:49 IST" name="beforeclass" finished-at="2025-08-30T20:04:52 IST" duration-ms="3209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.CreateCampaignTest@2de23121]" started-at="2025-08-30T20:04:52 IST" name="beforeMethod" finished-at="2025-08-30T20:04:54 IST" duration-ms="1460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateCampaignTest()[pri:0, instance:testCases.CreateCampaignTest@2de23121]" started-at="2025-08-30T20:04:54 IST" name="CreateCampaignTest" finished-at="2025-08-30T20:05:03 IST" duration-ms="8887" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='close']"}
+  (Session info: MicrosoftEdge=139.0.3405.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1937347346494f3341c34edceccd9393, findElement {using=xpath, value=//button[@aria-label='close']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.102, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50589}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\SHRINI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50589/devtoo..., se:cdpVersion: 139.0.3405.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1937347346494f3341c34edceccd9393]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='close']"}
+  (Session info: MicrosoftEdge=139.0.3405.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1937347346494f3341c34edceccd9393, findElement {using=xpath, value=//button[@aria-label='close']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.102, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50589}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\SHRINI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50589/devtoo..., se:cdpVersion: 139.0.3405.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1937347346494f3341c34edceccd9393
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at testCases.CreateCampaignTest.CreateCampaignTest(CreateCampaignTest.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[====CreateCampaignTestFAILURE======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateCampaignTest -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:testCases.CreateCampaignTest@2de23121]" started-at="2025-08-30T20:05:03 IST" name="aftermethod" finished-at="2025-08-30T20:05:03 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testCases.CreateCampaignTest@2de23121]" started-at="2025-08-30T20:05:03 IST" name="afterclass" finished-at="2025-08-30T20:05:04 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:testCases.CreateCampaignTest@2de23121]" started-at="2025-08-30T20:05:30 IST" name="aftertest" finished-at="2025-08-30T20:05:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.CreateCampaignTest@2de23121]" started-at="2025-08-30T20:05:30 IST" name="afterSuite" finished-at="2025-08-30T20:05:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCases.CreateCampaignTest -->
+      <class name="testCases.CreateCampaignWithExpectedDateTest">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testCases.CreateCampaignWithExpectedDateTest@bccb269]" started-at="2025-08-30T20:05:17 IST" name="beforeclass" finished-at="2025-08-30T20:05:19 IST" duration-ms="2182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.CreateCampaignWithExpectedDateTest@bccb269]" started-at="2025-08-30T20:05:19 IST" name="beforeMethod" finished-at="2025-08-30T20:05:21 IST" duration-ms="1759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateCampaignTest()[pri:0, instance:testCases.CreateCampaignWithExpectedDateTest@bccb269]" started-at="2025-08-30T20:05:21 IST" name="CreateCampaignTest" finished-at="2025-08-30T20:05:28 IST" duration-ms="7305" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: MicrosoftEdge=139.0.3405.102)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [694136e71920bb7c5fc9e33d9db708e3, clickElement {id=f.03A048170EA7D1D3DF7352D280BEB67F.d.36B6853E04690FA73CD89086B46672D0.e.85}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.102, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50673}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\SHRINI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50673/devtoo..., se:cdpVersion: 139.0.3405.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (694136e71920bb7c5fc9e33d9db708e3)] -> xpath: //button[@aria-label='close']]
+Session ID: 694136e71920bb7c5fc9e33d9db708e3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=139.0.3405.102)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [694136e71920bb7c5fc9e33d9db708e3, clickElement {id=f.03A048170EA7D1D3DF7352D280BEB67F.d.36B6853E04690FA73CD89086B46672D0.e.85}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.102, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50673}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\SHRINI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50673/devtoo..., se:cdpVersion: 139.0.3405.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (694136e71920bb7c5fc9e33d9db708e3)] -> xpath: //button[@aria-label='close']]
+Session ID: 694136e71920bb7c5fc9e33d9db708e3
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at testCases.CreateCampaignWithExpectedDateTest.CreateCampaignTest(CreateCampaignWithExpectedDateTest.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[====CreateCampaignTestFAILURE======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateCampaignTest -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:testCases.CreateCampaignWithExpectedDateTest@bccb269]" started-at="2025-08-30T20:05:28 IST" name="aftermethod" finished-at="2025-08-30T20:05:29 IST" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testCases.CreateCampaignWithExpectedDateTest@bccb269]" started-at="2025-08-30T20:05:29 IST" name="afterclass" finished-at="2025-08-30T20:05:30 IST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- testCases.CreateCampaignWithExpectedDateTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
