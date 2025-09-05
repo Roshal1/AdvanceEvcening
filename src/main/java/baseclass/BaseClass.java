@@ -18,6 +18,7 @@ import org.testng.annotations.BeforeTest;
 
 import POM.HomePage;
 import POM.loginPage;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import propertiesFileUtility.PropertiesUtility;
 
 import propertiesFileUtility.PropertiesUtility;
@@ -40,6 +41,7 @@ public class BaseClass {
 		public void beforeclass() throws IOException {
 			String BROWSER = putil.getdatafromPropertiesfile("Browser");
 			if(BROWSER.equals("Edge")) {
+				WebDriverManager.edgedriver();
 				driver= new EdgeDriver();
 			}
 			if(BROWSER.equals("Chrome")) {
